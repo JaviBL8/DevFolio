@@ -16,13 +16,13 @@ Have fun creating your portfolio on this template!!! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Title: add your Portfolio websites's title here -->
-    <title>[Your name here] | Developer</title>
+    <title> Javier Bueno López | Developer</title>
 
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
 
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Javier Bueno López | Developer" />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
     <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
@@ -35,9 +35,7 @@ Have fun creating your portfolio on this template!!! -->
     <!-- Fill content with the URL of this portfolio you'll host -->
     <meta property="og:url" content="https://devfolio.js.org/" />
     <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="[Your name here] | Developer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Made using DevFolio Template" />
+    <meta property="og:title" content="Javier Bueno López | Developer" />
     <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
       so that a thumbnail image of your portfolio is shown while shared on other platform -->
     <meta
@@ -50,7 +48,7 @@ Have fun creating your portfolio on this template!!! -->
     <!-- Again fill content attr with the URL of this portfolio you'll host -->
     <meta property="twitter:url" content="https://devfolio.js.org" />
     <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <meta property="twitter:title" content="Javier Bueno López | Developer" />
     <!-- short description that shows up while your portfolio is shared -->
     <meta
       property="twitter:description"
@@ -97,9 +95,9 @@ Have fun creating your portfolio on this template!!! -->
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Your Name</span>
+          Hi, my name is <span class="text-color-main name">Javier Bueno López</span>
           <br />
-          I'm the Unknown Developer.
+          I'm Full Stack Developer.
         </h1>
         <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
@@ -125,19 +123,16 @@ Have fun creating your portfolio on this template!!! -->
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
+              Full Stack MID developer with more than two years of experience.
             </p>
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
+              During this time I have worked with different frameworks for both backend and frontend that have given me the opportunity to grow as a professional in this profile.
+            </p>
+            <p class="about-wrapper__info-text">
+              I am currently specialized in Ruby on Rails and Aurelia, although I am also working on several personal projects with other technologies such as Python, Express, Angular, React, etc.
             </p>
             <span class="about-wrapper__cta">
-              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+              <a href="Profile.pdf" target="_blank" class="cta-btn cta-btn--resume">View Resume</a>
             </span>
           </div>
         </div>
@@ -154,7 +149,47 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">SWADroid</h3>
+              <p class="project-wrapper__text-info">
+                SWADroid is an Android application that allows you to manage your student account from the University of Granada. 
+                I made a new feature that allows to the users knows the indoor location of the teachers in the university. 
+                In this way the students can know where the teacher and arrange for tutoring sessions, or review exams, etc.
+                <br>
+                There are one microservice deployed in Heroku with the list of all the access points of the university and the 
+                Android application consumes this microservice to know the location of the teacher using trilateration algorithm.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://play.google.com/store/apps/details?id=es.ugr.swad.swadroid&hl=es&gl=US"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/JaviBL8/SWADroid" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Playfy</h3>
               <p class="project-wrapper__text-info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
@@ -192,45 +227,7 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Team Maker</h3>
               <p class="project-wrapper__text-info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
