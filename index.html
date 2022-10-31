@@ -43,23 +43,6 @@ Have fun creating your portfolio on this template!!! -->
       content="https://devfolio.js.org/assets/devfolio.png"
     />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://devfolio.js.org" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="Javier Bueno López | Developer" />
-    <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Made using DevFolio Template"
-    />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="https://anilseervi.vercel.app/assets/devfolio.png"
-    />
-
     <!-- link tags -->
     <link rel="stylesheet" href="./css/main.css" />
     <link
@@ -97,10 +80,10 @@ Have fun creating your portfolio on this template!!! -->
         <h1 class="hero-title">
           Hi, my name is <span class="text-color-main name">Javier Bueno López</span>
           <br />
-          I'm Full Stack Developer.
+          MID Full Stack Developer.
         </h1>
         <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+          <a class="cta-btn cta-btn--hero" href="#projects">My projects</a>
         </p>
       </section>
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
@@ -117,19 +100,20 @@ Have fun creating your portfolio on this template!!! -->
           <div class="about-wrapper__image">
             <img
               class="img-fluid"
-              src="./assets/profile.png"
+              src="./assets/me.png"
               alt="Profile Image"
             />
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Full Stack MID developer with more than two years of experience.
+              Full Stack MID developer with more than two years of experience. 
+              Computer engineering graduate with IT specialized. Besides I have a master's degree in Cibersecurity.
             </p>
             <p class="about-wrapper__info-text">
-              During this time I have worked with different frameworks for both backend and frontend that have given me the opportunity to grow as a professional in this profile.
+              I prefer backend development, but I also have experience in frontend development. Additionally, I am intersested in DevOps and Cibersecurity.
             </p>
             <p class="about-wrapper__info-text">
-              I am currently specialized in Ruby on Rails and Aurelia, although I am also working on several personal projects with other technologies such as Python, Express, Angular, React, etc.
+              I am currently specialized in Ruby on Rails and Aurelia, although I am also working on several personal projects with other technologies (Python, NodeJS, Java, Kotlin, Typescript, etc).
             </p>
             <span class="about-wrapper__cta">
               <a href="Profile.pdf" target="_blank" class="cta-btn cta-btn--resume">View Resume</a>
@@ -153,10 +137,10 @@ Have fun creating your portfolio on this template!!! -->
               <p class="project-wrapper__text-info">
                 SWADroid is an Android application that allows you to manage your student account from the University of Granada. 
                 I made a new feature that allows to the users knows the indoor location of the teachers in the university. 
-                In this way the students can know where the teacher and arrange for tutoring sessions, or review exams, etc.
-                <br>
-                There are one microservice deployed in Heroku with the list of all the access points of the university and the 
-                Android application consumes this microservice to know the location of the teacher using trilateration algorithm.
+              </p>
+              <p class="project-wrapper__text-info">
+                It works using a REST API that I developed in Flask and a database in MongoDB. The android application 
+                make resquests to the API and show the information in a map.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -176,7 +160,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/SWADroid.png"
                     class="img-fluid"
                     alt="Project Image"
                   />
@@ -191,19 +175,12 @@ Have fun creating your portfolio on this template!!! -->
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Playfy</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Microservice to recommend music based on parameters 
+              </p>
+              <p class="project-wrapper__text-info">
+                Huge project with the following technologies: Java, Spring Boot, Docker, AppEngine, GCloud, AWS, Vagrant, Ansible, etc.
               </p>
               <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
                 <a href="#" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
@@ -214,7 +191,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/playfy.png"
                     class="img-fluid"
                     alt="Project Image"
                   />
@@ -229,21 +206,16 @@ Have fun creating your portfolio on this template!!! -->
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Team Maker</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Team Maker is a web application that allows you to create teams of a certain number of people. 
+                The user will enter the number of people and the application will make the teams applying a clasification algorithm based in the Elo rating system.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://play.google.com/store/apps/details?id=com.kation.teamMaker"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
                 >
               </div>
             </div>
@@ -252,7 +224,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/TeamMaker.png"
                     class="img-fluid"
                     alt="Project Image"
                   />
@@ -271,8 +243,8 @@ Have fun creating your portfolio on this template!!! -->
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <p class="contact-wrapper__text">Have something for me to build?</p>
+          <a href="mailto:javibueenolopez8@gmail.com" class="cta-btn cta-btn--resume">Let's get building!</a>
         </div>
       </div>
     </section>
@@ -286,31 +258,7 @@ Have fun creating your portfolio on this template!!! -->
         </a>
         <div class="social-links">
           <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
+            href="https://www.linkedin.com/in/javibl8/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin"
@@ -318,7 +266,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa fa-linkedin"></i>
           </a>
           <a
-            href="#!"
+            href="https://github.com/JaviBL8"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"

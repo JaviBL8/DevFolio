@@ -224,8 +224,8 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
   <div class="container">
     <h2 class="section-title">Contact</h2>
     <div class="contact-wrapper">
-      <p class="contact-wrapper__text">[Put your call to action here]</p>
-      <a href="mailto:" class="cta-btn cta-btn--resume">Call to Action</a>
+      <p class="contact-wrapper__text">Have something for me to build?</p>
+      <a href="mailto:" class="cta-btn cta-btn--resume">Let's get building!</a>
     </div>
   </div>
 </section>
